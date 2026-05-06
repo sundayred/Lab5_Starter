@@ -57,4 +57,3 @@ test('isHexColor returns false for invalid hex codes', () => {
   expect(isHexColor('#UIU1234')).toBe(false);
   expect(isHexColor('#12345')).toBe(false);
 });
-
