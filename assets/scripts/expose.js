@@ -25,7 +25,7 @@ function init() {
     audio.volume = volumeValue / 100;
 
     if (volumeValue == 0) {
-      levelPic.src = '/assets/icons/volume-level-0.svg'
+      levelPic.src = './assets/icons/volume-level-0.svg'
       levelPic.alt = 'Volume level 0';
     }
 
