@@ -37,11 +37,11 @@ function init() {
     }
 
     utterance.onstart = () => {
-      emoji.src = 'assets/images/smiling-open.png';
+      emoji.src = './assets/images/smiling-open.png';
     };
 
     utterance.onend = () => {
-      emoji.src = 'assets/images/smiling.png';
+      emoji.src = './assets/images/smiling.png';
     };
 
     speech.speak(utterance);
